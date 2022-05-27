@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.header{
+    background-color: #fef7ed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    color: #3a54b4;
+}
+
+.header .span1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.header .menu1{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding-left: 30%;
+    font-weight: 200;
+}
+
+.header .bluebox{
+    background: #3a54b4;
+    color: #fff;
+    padding: 1vw;
+    text-align: center;
+}
+
+.section1{
+    background-color: #fef7ed;
+    color: #3a54b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    padding: 150px 0 150px 0;
+}
+
+.section1 .left1{
+
+}
+
+.section1 .bluebox{
+    background: #3a54b4;
+    color: #fff;
+    padding: 1vw;
+    text-align: center;
+}
+
+.section1 h1{
+    font-size: 150px;
+    width: 100px;
+}
+
+.section1 p{
+    font-size: 31px;
+    font-weight: 200;
+}
+
+.section1 span{
+    font-size: 14px;
+}
+
+.section1 img{
+    float: right;
+    border-radius: 50%;
+}
+
+.section2{
+    color: #3a54b4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    padding: 50px 0 150px 0;
+}
+
+.section2 img{
+    border-radius: 50%;
+}
+
+.section2 .right2{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 40px;
+}
+
+.section2 h2{
+    font-size: 62px;
+}
+
+.section2 span{
+    font-weight: 200;
+    width: 360px;
+}
+
+.section2 .bluebox{
+    background: #3a54b4;
+    color: #fff;
+    padding: 1vw;
+    width: 150px;
+    text-align: center;
+}
+
+.section3{
+    color: #3a54b4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    padding: 50px 0 150px 0;
+}
+
+.section3 h2{
+    font-size: 62px;
+}
+
+.section3 h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section3 .services{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.section3 .services img{
+    border-radius: 50%;
+}
+
+.section3 .services .pets{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    text-align: center;
+    gap: 4vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 a{
+    background: #3a54b4;
+    color: #fff;
+    padding: 1vw;
+    width: 150px;
+    text-align: center;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    color: #3a54b4;
+    padding: 0 0 150px 0;
+}
+
+.section4 h2{
+    font-size: 62px;
+}
+
+.section4 .images4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    width: 100%;
+}
+
+.section4 .images4 img{
+    width: 420px;
+    text-align: center;
+}
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    color: #3a54b4;
+    padding: 0 0 150px 0;
+    text-align: center;
+}
+
+.section5 h2{
+    font-size: 62px;
+    padding-bottom: 60px;
+}
+
+.section5 .comments{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.section5 .comments div{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    width: 300px;
+}
+
+.section5 h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section5 .comments p{
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.section5 .comments .name5{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background: #3a54b4;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.footer h2{
+    font-size: 62px;
+}
+
+.footer .contact{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.footer img{
+    margin-right: 40%;
+}
+
+.footer .contact .p1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer .contact .p2{
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 70%;
+}
+
+.footer .socialmedia{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 25px;
+    gap: 2vw;
+}
+
+.span1, .bluebox, .menu1:hover{
+    cursor: pointer;
+}
